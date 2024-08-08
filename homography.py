@@ -16,7 +16,7 @@ for i in range(len(court_ref.court_conf)):
 
 def get_trans_matrix(points):
     matrix_trans = None
-    dist_max = np.Inf
+    dist_max = np.inf
     for conf_ind in range(1, 13):
         conf = court_ref.court_conf[conf_ind]
 
